@@ -1,11 +1,13 @@
 # reverse.c
 reverse the characters of the word using a pointer
 
-#include<stdio.h>
+	
+	
+	#include<stdio.h>
 
-#define MSG_len 80
+        #define MSG_len 80
 
-int main(){
+        int main(){
 	
 	char msg[MSG_len], *p;
 	
@@ -23,4 +25,4 @@ int main(){
 	
 	
 	return 0;
-}
+       }
