@@ -1,5 +1,6 @@
-# reverse.c
-reverse the characters of the word using a pointer
+reverse.c
+
+ Reverse the characters of the word using a pointer
 
 	
 	
