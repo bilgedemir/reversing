@@ -13,14 +13,14 @@ reverse.c
 	char msg[MSG_len], *p;
 	
 	printf("enter a sentence: ");
-	for(p=&msg[0]; p<&msg[MSG_len]; p++){
+	for(p = &msg[0] ; p < &msg[MSG_len] ; p++){
 		*p = getchar();
 		if(*p == '\n')
 		break;
 	}
 	
 	printf("reversal is: ");
-	for(p--; p>=&msg[0]; p--)
+	for(p--; p >= &msg[0]; p--)
 	    putchar(*p);
 	putchar('\n');    
 	
